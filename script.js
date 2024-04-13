@@ -38,6 +38,96 @@ const questions = [
             {text: "England", correct: true},
 
         ]
+    },
+    {
+        question: "Who wrote 'The Communist Manifesto'?",
+        answers: [
+        {text: "Karl Marx", correct: true},
+        {text: "Friedrich Engels", correct: false},
+        {text: "Vladimir Lenin", correct: false},
+        {text: "Leon Trotsky", correct: false},
+]
+    },
+    {
+        question: "Which ancient civilization is known for its creation of the Code of Hammurabi?",
+        answers: [
+        {text: "Ancient Greece", correct: false},
+        {text: "Ancient Rome", correct: false},
+        {text: "Ancient Egypt", correct: false},
+        {text: "Mesopotamia", correct: true},
+        ]
+    },
+    {
+        question: "What year did Christopher Columbus first reach the Americas?",
+        answers: [
+        {text: "1492", correct: true},
+        {text: "1505", correct: false},
+        {text: "1519", correct: false},
+        {text: "1527", correct: false},
+        ]
+    },
+    {
+        question: "Who was the longest-reigning British monarch as of 2022?",
+        answers: [
+        {text: "Queen Elizabeth I", correct: false},
+        {text: "Queen Victoria", correct: true},
+        {text: "King George III", correct: false},
+        {text: "King Henry VIII", correct: false}
+        ]
+    },
+    {
+        question: "In what year did World War I begin?",
+        answers: [
+        {text: "1905", correct: false},
+        {text: "1914", correct: true},
+        {text: "1923", correct: false},
+        {text: "1939", correct: false},
+        ]
+    },
+    {
+        question: "The Magna Carta, signed in 1215, was a significant document in which country?",
+        answers: [
+        {text: "England", correct: true},
+        {text: "France", correct: false},
+        {text: "Spain", correct: false},
+        {text: "Italy", correct: false},
+        ]
+    },
+    {
+        question: "Who was the first female Prime Minister of the United Kingdom?",
+        answers: [
+        {text: "Margaret Thatcher", correct: true},
+        {text: "Angela Merkel", correct: false},
+        {text: "Theresa May", correct: false},
+        {text: "Indira Gandhi", correct: false},
+        ]
+    },
+    {
+        question: "The Battle of Waterloo, where Napoleon Bonaparte was defeated, took place in which modern-day country?",
+        answers: [
+        {text: "France", correct: false},
+        {text: "Belgium", correct: true},
+        {text: "Germany", correct: false},
+        {text: "Netherlands", correct: false},
+        ]
+    },
+    {
+        question: "Which American president signed the Emancipation Proclamation?",
+        answers: [
+        {text: "Abraham Lincoln", correct: true},
+        {text: "Thomas Jefferson", correct: false},
+        {text: "Andrew Jackson", correct: false},
+        {text: "Ulysses S. Grant", correct: false},
+        ]
+    },
+    {
+        question: "Who was the last emperor of Russia?",
+        answers: [
+        {text: "Nicholas II", correct: true},
+        {text: "Alexander III", correct: false},
+        {text: "Peter the Great", correct: false},
+        {text: "Ivan the Terrible", correct: false},
+        ]
     }
 ];
 
