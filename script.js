@@ -128,7 +128,62 @@ const questions = [
         {text: "Peter the Great", correct: false},
         {text: "Ivan the Terrible", correct: false},
         ]
-    }
+    },
+    {
+        question: "Who was the founder of Buddhism?",
+        answers: [
+        {text: "Confucius", correct: false},
+        {text: "Siddhartha Gautama", correct: true},
+        {text: "Laozi", correct: false},
+        {text: "Mahavira", correct: false},
+        ]
+    },
+    {
+        question: "Which city was the capital of the Byzantine Empire?",
+        answers: [
+        {text: "Rome", correct: false},
+        {text: "Athens", correct: false},
+        {text: "Constantinople", correct: true},
+        {text: "Alexandria", correct: false},
+        ]
+    },
+    {
+        question: "Who was the first female pharaoh of ancient Egypt?",
+        answers: [
+        {text: "Nefertiti", correct: false},
+        {text: "Cleopatra VII", correct: false},
+        {text: "Hatshepsut", correct: true},
+        {text: "Ankhesenamun", correct: false},
+        ]
+    },
+    {
+        question: "The Treaty of Versailles, ending World War I, was signed in which year?",
+        answers: [
+        {text: "1918", correct: false},
+        {text: "1919", correct: true},
+        {text: "1920", correct: false},
+        {text: "1921", correct: false},
+        ]
+    },
+    {
+        question: "What year did the Berlin Wall fall, symbolizing the end of the Cold War?",
+        answers: [
+        {text: "1985", correct: false},
+        {text: "1987", correct: false},
+        {text: "1989", correct: true},
+        {text: "1991", correct: false},
+        ]
+    },
+    {
+        question: "Who was the first explorer to circumnavigate the globe?",
+        answers: [
+        {text: "Christopher Columbus", correct: false},
+        {text: "Ferdinand Magellan", correct: true},
+        {text: "Vasco da Gama", correct: false},
+        {text: "Marco Polo", correct: false},
+        ]
+    },
+    
 ];
 
 const questionElement = document.getElementById("question");
